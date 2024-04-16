@@ -1,0 +1,16 @@
+---
+# project name
+project : IMDB
+use_wandb : True
+
+# dataset
+dataset : IMDB
+
+# sweep 
+epochs : 10
+seed : 67
+optimizer : 
+  method : 'adam'
+  bs : 4
+  lr : 0.0003
+...

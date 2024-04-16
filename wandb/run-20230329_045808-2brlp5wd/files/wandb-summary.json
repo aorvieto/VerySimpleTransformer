@@ -1,0 +1,1 @@
+{"lr": 0.0003, "train_loss_local": 0.6795055866241455, "grad_norm_square": 0.1234099388856909, "_timestamp": 1680061982.1134257, "_runtime": 3294.067182779312, "_step": 62509, "train_loss_epoch": 0.6938474552726756, "test_acc_epoch": 0.5, "_wandb": {"runtime": 3292}}

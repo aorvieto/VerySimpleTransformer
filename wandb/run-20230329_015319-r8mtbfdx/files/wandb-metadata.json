@@ -1,0 +1,207 @@
+{
+    "os": "Linux-5.4.0-45-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2023-03-28T23:53:19.974632",
+    "startedAt": "2023-03-28T23:53:19.348510",
+    "docker": null,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "mark.inf.ethz.ch",
+    "username": "orvietoa",
+    "executable": "/local/home/orvietoa/miniconda3/bin/python3",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1879.3368928571433,
+        "min": 1200.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2956.811,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1647.659,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.438,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.381,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1597.312,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1496.62,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2957.882,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2337.688,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.285,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.953,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.562,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.262,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1696.107,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.57,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.785,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.655,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.33,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2847.397,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.392,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2893.481,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2959.275,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.42,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1197.552,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1596.34,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2826.067,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2826.069,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2826.063,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2826.063,
+            "min": 1200.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "total": 7040.025367736816,
+        "used": 6740.317855834961
+    },
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        },
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17071734784
+        }
+    ],
+    "memory": {
+        "total": 251.78435516357422
+    }
+}

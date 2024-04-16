@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "main.py", line 23, in <module>
+    run_toy_transformer_config(config_local, args.device)
+  File "/local/home/orvietoa/lion/train_toy_transformer.py", line 45, in run_toy_transformer_config
+    train, test = torchtext.legacy.datasets.IMDB.splits(TEXT, LABEL)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/datasets/imdb.py", line 53, in splits
+    return super(IMDB, cls).splits(
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/data/dataset.py", line 81, in splits
+    test_data = None if test is None else cls(
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/datasets/imdb.py", line 35, in __init__
+    examples.append(data.Example.fromlist([text, label], fields))
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/data/example.py", line 84, in fromlist
+    setattr(ex, name, field.preprocess(val))
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/data/field.py", line 211, in preprocess
+    x = Pipeline(str.lower)(x)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torchtext/legacy/data/pipeline.py", line 37, in __call__
+    x = pipe.call(x, *args)
+KeyboardInterrupt

@@ -1,0 +1,115 @@
+- nr. of training examples 6250
+- nr. of test examples 6250
+ epoch 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 47%|███████████████████████████████████████████████████████████████████████████████▋                                                                                           | 2912/6250 [02:41<03:05, 17.98it/s]
+Traceback (most recent call last):
+  File "main.py", line 23, in <module>
+    run_toy_transformer_config(config_local, args.device)
+  File "/local/home/orvietoa/lion/train_toy_transformer.py", line 93, in run_toy_transformer_config
+    out = model(input)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/lion/models/former/transformers.py", line 95, in forward
+    x = self.tblocks(x)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/lion/models/former/modules.py", line 518, in forward
+    fedforward = self.ff(x)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/local/home/orvietoa/miniconda3/lib/python3.8/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+KeyboardInterrupt

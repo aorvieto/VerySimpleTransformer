@@ -1,0 +1,8 @@
+- nr. of training examples 6250
+- nr. of test examples 6250
+Traceback (most recent call last):
+  File "main.py", line 23, in <module>
+    run_toy_transformer_config(config_local, args.device)
+  File "/local/home/orvietoa/lion/train_toy_transformer.py", line 68, in run_toy_transformer_config
+    avg_grad_1, avg_grad_2 = [], [], []
+ValueError: too many values to unpack (expected 2)
